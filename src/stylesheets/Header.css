@@ -1,0 +1,93 @@
+:root {
+  --dark-blue: #233f8a;
+  --blue: #0397f4;
+  --orange: #f95603;
+  --black: #0f110c;
+}
+@font-face {
+  font-family: "audiowideregular";
+  src: url("../../public/fonts/audiowide/audiowide-regular-webfont.woff")
+      format("woff"),
+    url("../../public/fonts/audiowide/audiowide-regular-webfont.woff2")
+      format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rubik";
+  src: url("../../public/fonts/Rubik/Rubik-VariableFont_wght.woff2")
+      format("woff2"),
+    url("../../public/fonts/Rubik/Rubik-VariableFont_wght.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "VesperLibre";
+  src: url("../../public/fonts/Vesper_Libre/VesperLibre-Regular.woff2")
+      format("woff2"),
+    url("../../public/fonts/Vesper_Libre/VesperLibre-Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+  font-family: audiowideregular;
+  font-weight: 700;
+}
+.header_left {
+  display: flex;
+}
+.portfolio_name {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.header__icon {
+  object-fit: contain;
+  height: 80px;
+  width: 150px;
+  margin-top: 12px;
+}
+
+.header__center {
+  display: flex;
+  flex: 4;
+  align-items: center;
+  max-width: fit-content;
+  padding: 10px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+}
+
+.header__center > input {
+  border: none;
+  padding: 10px;
+  outline-width: 0;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 16vw;
+  margin-right: 3%;
+}
+.header__right p {
+  font-size: 18px;
+}
+.language_icon {
+  padding: 0px 10px;
+}
+.dropdown_icon {
+  padding: 0px 10px;
+}
